@@ -7,10 +7,20 @@
             cols="12"
             class="text-center"
           >
-            Footer
+            {{ footer.app }}
           </b-col>
         </b-row>
       </b-container>
     </footer>
   </div>
 </template>
+
+<script>
+export default {
+  computed: {
+    footer () {
+      return this.$t('footer')
+    }
+  }
+}
+</script>

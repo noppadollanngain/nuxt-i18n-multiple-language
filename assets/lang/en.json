@@ -1,5 +1,14 @@
 {
   "header": {
-    "app": "1"
+    "app": "Nuxt.js multiple language with i18n",
+    "link": {
+      "page_1": "page 1",
+      "page_2": "page 2",
+      "page_3": "page 3"
+    },
+    "lang": "language"
+  },
+  "footer": {
+    "app": "footer"
   }
 }

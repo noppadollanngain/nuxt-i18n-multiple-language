@@ -41,7 +41,10 @@ export default {
   */
   modules: [
     'bootstrap-vue/nuxt',
-    ['nuxt-i18n']
+    ['nuxt-i18n', {
+      parsePages: false,
+      encodePaths: false
+    }]
   ],
   /*
   ** i18n configuration
@@ -50,11 +53,13 @@ export default {
     locales: [
       {
         code: 'en',
-        iso: 'en-US'
+        iso: 'en-US',
+        name: 'English'
       },
       {
         code: 'th',
-        iso: 'th-TH'
+        iso: 'th-TH',
+        name: 'ไทย'
       }
     ],
     defaultLocale: 'th',
