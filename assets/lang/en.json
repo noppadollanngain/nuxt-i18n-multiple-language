@@ -10,5 +10,25 @@
   },
   "footer": {
     "app": "footer"
+  },
+  "index": {
+    "title": "Nuxt.js multiple language with i18n",
+    "body": "page index i18n multiple language",
+    "footer": "end page index"
+  },
+  "page_1": {
+    "title": "Nuxt.js multiple language with i18n",
+    "body": "page 1 i18n multiple language !!!",
+    "footer": "end page one"
+  },
+  "page_2": {
+    "title": "Nuxt.js multiple language with i18n",
+    "body": "page 2 i18n multiple language !!!!!",
+    "footer": "end page two"
+  },
+  "page_3": {
+    "title": "Nuxt.js multiple language with i18n",
+    "body": "page 3 i18n multiple language !!!!!!!",
+    "footer": "end page three"
   }
 }
