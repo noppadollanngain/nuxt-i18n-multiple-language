@@ -40,7 +40,8 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
+    ['nuxt-i18n']
   ],
   /*
   ** i18n configuration
