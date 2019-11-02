@@ -43,6 +43,7 @@ export default {
     'bootstrap-vue/nuxt',
     ['nuxt-i18n', {
       parsePages: false,
+      pages: require('./assets/route/pages.json'),
       encodePaths: false
     }]
   ],

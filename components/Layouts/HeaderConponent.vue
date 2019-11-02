@@ -1,15 +1,15 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="dark" variant="info">
-      <b-navbar-brand href="#">{{ header.app }}</b-navbar-brand>
+      <b-navbar-brand :to="localePath({ name: 'index' })">{{ header.app }}</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="#">{{ header.link.page_1 }}</b-nav-item>
-          <b-nav-item href="#">{{ header.link.page_2 }}</b-nav-item>
-          <b-nav-item href="#">{{ header.link.page_3 }}</b-nav-item>
+          <b-nav-item :to="localePath({ name: 'page1' })">{{ header.link.page_1 }}</b-nav-item>
+          <b-nav-item :to="localePath({ name: 'page2' })">{{ header.link.page_2 }}</b-nav-item>
+          <b-nav-item :to="localePath({ name: 'page3' })">{{ header.link.page_3 }}</b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
@@ -33,6 +33,9 @@
 
 <script>
 export default {
+  data: () => ({
+    path: 'Data'
+  }),
   computed: {
     header () {
       return this.$t('header')
