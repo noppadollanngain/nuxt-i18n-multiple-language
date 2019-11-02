@@ -1894,9 +1894,9 @@ chokidar@^2.0.2:
     fsevents "^1.2.7"
 
 chokidar@^3.2.2:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.2.3.tgz#b9270a565d14f02f6bfdd537a6a2bbf5549b8c8c"
-  integrity sha512-GtrxGuRf6bzHQmXWRepvsGnXpkQkVU+D2/9a7dAe4a7v1NhrfZOZ2oKf76M3nOs46fFYL8D+Q8JYA4GYeJ8Cjw==
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.3.0.tgz#12c0714668c55800f659e262d4962a97faf554a6"
+  integrity sha512-dGmKLDdT3Gdl7fBUe8XK+gAtGmzy5Fn0XkkWQuYxGIgWVPPse2CxFA5mtrlD0TOHaHjEUqkWNyP1XdHoJES/4A==
   dependencies:
     anymatch "~3.1.1"
     braces "~3.0.2"
@@ -4569,7 +4569,7 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nuxt@^2.0.0:
+nuxt@2.10.2:
   version "2.10.2"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.10.2.tgz#15ade22dfe281095865df18e6f6e861fcad1ff95"
   integrity sha512-BDeio2WwwMrW4bctRYNHq1su+rwIJzuo87bAZv8Xs2/Gw5g4bPIGZTiKGx6tSZBjxnONsGDOxhFOWZ5JpQEtrQ==
@@ -6656,9 +6656,9 @@ uglify-js@3.4.x:
     source-map "~0.6.1"
 
 uglify-js@^3.5.1:
-  version "3.6.6"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.6.6.tgz#7ec28c92c7131c6a096b69cd48722600cc534207"
-  integrity sha512-q3Zusqd028P8MdbarqL0I1snTZ7+IbIWiKUXVZyXMVdOSxOG2FFqLXyGlgYSqYu46SR7tR3Sk0xqN1VtvxGWnQ==
+  version "3.6.7"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.6.7.tgz#15f49211df6b8a01ee91322bbe46fa33223175dc"
+  integrity sha512-4sXQDzmdnoXiO+xvmTzQsfIiwrjUCSA95rSP4SEd8tDb51W2TiDOlL76Hl+Kw0Ie42PSItCW8/t6pBNCF2R48A==
   dependencies:
     commander "~2.20.3"
     source-map "~0.6.1"
