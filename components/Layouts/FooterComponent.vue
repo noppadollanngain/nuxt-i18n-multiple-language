@@ -1,0 +1,16 @@
+<template>
+  <div>
+    <footer>
+      <b-container>
+        <b-row>
+          <b-col
+            cols="12"
+            class="text-center"
+          >
+            Footer
+          </b-col>
+        </b-row>
+      </b-container>
+    </footer>
+  </div>
+</template>
