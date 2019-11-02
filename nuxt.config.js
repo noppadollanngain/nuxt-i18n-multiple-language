@@ -12,7 +12,8 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Kanit&display=swap' },
     ]
   },
   /*
@@ -23,6 +24,7 @@ export default {
   ** Global CSS
   */
   css: [
+    { src: '~/assets/scss/app.scss', lang: 'scss' }
   ],
   /*
   ** Plugins to load before mounting the App
@@ -40,6 +42,30 @@ export default {
   modules: [
     'bootstrap-vue/nuxt'
   ],
+  /*
+  ** i18n configuration
+  */
+  i18n: {
+    locales: [
+      {
+        code: 'en',
+        iso: 'en-US'
+      },
+      {
+        code: 'th',
+        iso: 'th-TH'
+      }
+    ],
+    defaultLocale: 'th',
+    vueI18n: {
+      messages: {
+        // eslint-disable-next-line global-require
+        th: require('./assets/lang/th.json'),
+        // eslint-disable-next-line global-require
+        en: require('./assets/lang/en.json')
+      }
+    }
+  },
   /*
   ** Build configuration
   */

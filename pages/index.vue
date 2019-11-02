@@ -1,6 +1,6 @@
 <template>
   <b-container>
-    Test
+      ทดสอบ
   </b-container>
 </template>
 
